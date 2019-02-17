@@ -1,0 +1,16 @@
+baseurl = "http://example.org"
+title = "TЕЕ"
+author = "A. Yanev"
+canonifyurls = true
+paginate = 9
+theme = "aether-modified"
+languageCode = "en-US"
+#googleAnalytics = "Your google analytics tracking ID"
+
+[params]
+brand = "TЕЕ"
+description = "Theoretical electrical engineering related topics"
+#homeimg = "url to the image used for the home button - optional"
+#bgimg = "url to the image used for the background - optional" "img/ignasi_pattern_s.png"
+
+
