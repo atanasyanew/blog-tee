@@ -23,13 +23,13 @@
   </url>
   
   <url>
-    <loc>http://example.org/tags/about/</loc>
+    <loc>http://example.org/categories/about/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/about/</loc>
+    <loc>http://example.org/tags/about/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
