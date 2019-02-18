@@ -4,6 +4,8 @@
 # DIR=$(dirname "$0")
 
 # cd $DIR/..
+#"\033[0;32mDeploying updates to GitHub...\033[0m"
+
 
 if [[ $(git status -s) ]]
 then
@@ -28,3 +30,4 @@ hugo
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+git push origin gh-pages
