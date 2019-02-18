@@ -1,4 +1,4 @@
-baseurl = "http://example.org"
+baseurl = "/blog-tee"
 title = "TЕЕ"
 author = "A. Yanev"
 canonifyurls = true
