@@ -3,63 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/post/2019-02-01-typography/</loc>
+    <loc>/blog-tee/post/2019-02-01-typography/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>/blog-tee/about/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/aether-features/</loc>
+    <loc>/blog-tee/post/aether-features/</loc>
     <lastmod>2018-12-19T10:35:35-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/blog-tee/</loc>
     <lastmod>2018-04-27T09:46:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/about/</loc>
+    <loc>/blog-tee/tags/about/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/about/</loc>
+    <loc>/blog-tee/categories/about/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/blog-tee/categories/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/features/</loc>
+    <loc>/blog-tee/categories/features/</loc>
     <lastmod>2018-12-19T10:35:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>/blog-tee/post/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/blog-tee/tags/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/typography/</loc>
+    <loc>/blog-tee/tags/typography/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
     <priority>0</priority>
   </url>

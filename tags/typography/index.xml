@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typography - TЕЕ</title>
-    <link>http://example.org/tags/typography/</link>
+    <link>/blog-tee/tags/typography/</link>
     <description>Recent content in Typography on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 01 Feb 2019 21:56:55 +0200</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog-tee/tags/typography/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Typography</title>
-      <link>http://example.org/post/2019-02-01-typography/</link>
+      <link>/blog-tee/post/2019-02-01-typography/</link>
       <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
       
-      <guid>http://example.org/post/2019-02-01-typography/</guid>
+      <guid>/blog-tee/post/2019-02-01-typography/</guid>
       <description>Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)</description>
     </item>
   </channel>

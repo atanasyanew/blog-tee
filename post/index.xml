@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts - TЕЕ</title>
-    <link>http://example.org/post/</link>
+    <link>/blog-tee/post/</link>
     <description>Recent content in Posts on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 01 Feb 2019 21:56:55 +0200</lastBuildDate>
     
-        <atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog-tee/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Typography</title>
-      <link>http://example.org/post/2019-02-01-typography/</link>
+      <link>/blog-tee/post/2019-02-01-typography/</link>
       <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
       
-      <guid>http://example.org/post/2019-02-01-typography/</guid>
+      <guid>/blog-tee/post/2019-02-01-typography/</guid>
       <description>Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)</description>
     </item><item>
       <title>Aether Features</title>
-      <link>http://example.org/post/aether-features/</link>
+      <link>/blog-tee/post/aether-features/</link>
       <pubDate>Wed, 19 Dec 2018 10:35:35 -0500</pubDate>
       
-      <guid>http://example.org/post/aether-features/</guid>
+      <guid>/blog-tee/post/aether-features/</guid>
       <description>Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.</description>
     </item>
   </channel>
