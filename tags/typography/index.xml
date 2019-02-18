@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typography - TЕЕ</title>
-    <link>https://atanasyanew.github.io/tags/typography/</link>
+    <link>https://atanasyanew.github.io/blog-tee/tags/typography/</link>
     <description>Recent content in Typography on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 01 Feb 2019 21:56:55 +0200</lastBuildDate>
     
-        <atom:link href="https://atanasyanew.github.io/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/typography/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Typography</title>
-      <link>https://atanasyanew.github.io/post/2019-02-01-typography/</link>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</link>
       <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/post/2019-02-01-typography/</guid>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</guid>
       <description>Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)</description>
     </item>
   </channel>
