@@ -8,6 +8,7 @@
   <meta name="description" content="Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" />
   <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/main.min.css" />
   <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/custom.css" />
   
@@ -59,6 +60,8 @@
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit?</p>
 
+<hr />
+
 <h2 id="heading-2">Heading 2</h2>
 
 <h3 id="heading-3">Heading 3</h3>
@@ -69,70 +72,92 @@
 
 <h6 id="heading-6">Heading 6</h6>
 
-<p><br></p>
+<hr />
 
-<h6 id="text">text</h6>
+<h2 id="text">Text</h2>
 
-<p>some <strong>bold</strong> and <em>italic</em> text and a <a href="https://atanasyanew.github.io/blog-tee/{{ site.baseurl | replace: '//', '/' }}">link</a> that brings you back to the home page and a paragraph of lorem ipsum.</p>
+<p><strong>bold</strong></p>
+
+<p><em>italic</em></p>
+
+<p><a href="https://www.google.com/">link</a></p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit? Architecto quis dignissimos porro pariatur impedit at odio illo ab sunt obcaecati eius consectetur distinctio, eligendi fuga sint fugit aspernatur ratione blanditiis veniam voluptates? Delectus magni optio voluptate odit incidunt nobis officiis mollitia fuga libero, reprehenderit fugit.</p>
 
 <p>Hic eos earum ipsum, reprehenderit, ut facere officiis vitae voluptas sunt atque quisquam, nobis deleniti sapiente laudantium quia libero nulla rerum beatae mollitia iusto similique! Nesciunt illo, harum facilis aperiam commodi. Amet perferendis voluptatem, itaque laboriosam, eos minima vero tempore at!</p>
 
-<p><br></p>
+<hr />
 
-<h6 id="blockquote">blockquote</h6>
+<h2 id="ordered-list">Ordered List</h2>
+
+<pre><code class="language-md">1. Number one
+2. Number Two
+    1. Indented Number 1
+    2. Indented Number 2
+</code></pre>
+
+<ol>
+<li>Number one</li>
+<li>Number Two
+
+<ol>
+<li>Indented Number 1</li>
+<li>Indented Number 2</li>
+</ol></li>
+</ol>
+
+<hr />
+
+<h2 id="unordered-list">Unordered List</h2>
+
+<pre><code class="language-md">* Get groceries at Harris Teeter before the party
+* Get a Spider Man cake
+    * Chocolate or marble
+    * Whipped cream frosting
+* Don't forget to walk the dog before you leave
+* Bring lots of plates and silverware so that we don't run out
+    * Plastic Dixie brand is fine
+</code></pre>
+
+<ul>
+<li>Get groceries at Harris Teeter before the party</li>
+<li>Get a Spider Man cake
+
+<ul>
+<li>Chocolate or marble</li>
+<li>Whipped cream frosting</li>
+</ul></li>
+<li>Don&rsquo;t forget to walk the dog before you leave</li>
+<li>Bring lots of plates and silverware so that we don&rsquo;t run out
+
+<ul>
+<li>Plastic Dixie brand is fine</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="blockquote">Blockquote</h2>
+
+<pre><code class="language-md">&gt; This is in a blockquote
+  and a second line
+</code></pre>
 
 <blockquote>
 <p>This is in a blockquote
   and a second line</p>
 </blockquote>
 
-<p><br></p>
+<hr />
 
-<h4 id="footnotes-1">footnotes<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></h4>
+<h2 id="tables">Tables</h2>
 
-<p>Footnotes are also part of markdown features. So easy to create!</p>
-
-<p><br></p>
-
-<h6 id="lists">lists</h6>
-
-<ol>
-<li>this</li>
-<li>is</li>
-<li>an</li>
-<li>ordered</li>
-<li>list</li>
-</ol>
-
-<ul>
-<li>and</li>
-<li>this</li>
-<li>an</li>
-<li>unordered</li>
-<li>list</li>
-</ul>
-
-<p><br></p>
-
-<h6 id="code">code</h6>
-
-<p>You can show inline code (a link in markdown: <code>[linktext](url)</code>)</p>
-
-<p>or a whole block</p>
-
-<pre><code class="language-scss">blockquote{
-    margin-left: 5%;
-    padding: 10px;
-    box-sizing: border-box;
-    border-left: $line;
-}
+<pre><code class="language-md">| table heading 1 | table heading 2 | table heading 3 |
+|---|---|---|
+| row 1 content 1  | row 1 content 2  | row 1 content 3  |
+| row 2 content 1  | row 2 content 2  | row 2 content 3  |
+| row 3 content 1  | row 3 content 2  | row 3 content 3  |
 </code></pre>
-
-<p><br></p>
-
-<h4 id="tables">tables</h4>
 
 <table>
 <thead>
@@ -164,9 +189,72 @@
 </tbody>
 </table>
 
-<h4 id="math">MATH</h4>
+<p>A helpful tool for generating markdown tables <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a></p>
 
-<p>Mathjax example</p>
+<hr />
+
+<h3 id="footnotes">Footnotes</h3>
+
+<pre><code class="language-md">Footnotes[^1] 
+[^1]: Footnote: this is a footnote!
+</code></pre>
+
+<h2 id="footnotes-1-are-also-part-of-markdown-features-so-easy-to-create">Footnotes<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> are also part of markdown features. So easy to create!</h2>
+
+<h2 id="images">Images</h2>
+
+<pre><code class="language-md">![NYC Skyline](/img/20190201-featuredImage-typography.png)
+</code></pre>
+
+<p><img src="https://atanasyanew.github.io/blog-tee/img/20190201-featuredImage-typography.png" alt="NYC Skyline" /></p>
+
+<h3 id="small-images">Small Images</h3>
+
+<pre><code class="language-md">{{&lt; smallimg src=&quot;/img/20190201-featuredImage-typography.png&quot; alt=&quot;typography&quot; smartfloat=&quot;left&quot; width=&quot;250px&quot; &gt;}}
+</code></pre>
+
+<picture>
+    
+    <source srcset="https://atanasyanew.github.io/img/20190201-featuredImage-typography.png">
+    <img src="https://atanasyanew.github.io/img/20190201-featuredImage-typography.png" alt="typography" class="small-img smartfloat-left" style="width: 250px;"/>
+</picture>
+
+<p>This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows the New York skyline. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren&rsquo;t necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.</p>
+
+<hr />
+
+<h2 id="code">Code</h2>
+
+<pre><code class="language-md">```javascript
+var s = &quot;JavaScript syntax highlighting&quot;;
+alert(s);
+```
+</code></pre>
+
+<pre><code class="language-javascript">var s = &quot;JavaScript syntax highlighting&quot;;
+alert(s);
+</code></pre>
+
+<pre><code class="language-scss">blockquote{
+    margin-left: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-left: $line;
+}
+</code></pre>
+
+<h3 id="inline-code">Inline code</h3>
+
+<pre><code class="language-md">Here is `var s = &quot;Hello World&quot;` inline code
+</code></pre>
+
+<p>Here is <code>var s = &quot;Hello World&quot;</code> inline code</p>
+
+<hr />
+
+<h2 id="math">Math</h2>
+
+<h4 id="mathjax-https-www-mathjax-org"><a href="https://www.mathjax.org/">Mathjax</a></h4>
 
 <p>$$ \begin{matrix}
     1 &amp; x &amp; x^2 <br />
@@ -183,10 +271,16 @@ $$</p>
 \sqrt{x^3+1, where\ne 2*a1}
 $$</p>
 
-<pre><code class="language-shell">
-sudo apt-get update
+<h4 id="latex-style-math-typsetting-with-katex-https-katex-org"><a href="https://katex.org/">LaTeX style math typsetting with KaTeX</a></h4>
 
+<pre><code class="language-md">{{&lt; raw &gt;}}
+\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
+{{&lt; /raw &gt;}}
 </code></pre>
+
+
+\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
+
 <div class="footnotes">
 
 <hr />
@@ -203,34 +297,15 @@ sudo apt-get update
   <nav class="end-nav side-padding">
     
     <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://atanasyanew.github.io/blog-tee/post/aether-features/" class="card blog-card" rel="bookmark" >
-    
-    <div class="card-img-container">
-      <p class="card-img-overlay">Next Article</p>
-      <picture>
-        
-        <source srcset="https://atanasyanew.github.io/blog-tee/img/mdd-iphone.jpg">
-        <img src="https://atanasyanew.github.io/blog-tee/img/mdd-iphone.jpg" class="card-img" >
-      </picture>
-    </div>
-    
-  <article class="card-body">
-    <h2 class="card-title">Aether Features</h2>
-    <p class="card-text">Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.</p>
-    <div class="card-subtext muted-text">
-      <p>Posted <time datetime="2018-12-19 1219:00">Dec 19, 2018</time></p>
-      <p>#Features </p>
-    </div>
-  </article>
-</a>
-    
-    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
   href="https://atanasyanew.github.io/blog-tee" class="card home-card" style="background-image: url( https://atanasyanew.github.io/blog-tee/img/grey-cloud.jpg )" rel="bookmark" >
   Home
 </a>
   </nav>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
+</script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 <script src="https://atanasyanew.github.io/blog-tee/js/core.js"></script>

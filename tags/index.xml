@@ -6,16 +6,37 @@
     <description>Recent content in Tags on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 01 Feb 2019 21:56:55 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 Feb 2019 20:36:38 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title></title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/</guid>
+      <description></description>
+    </item><item>
       <title>About</title>
       <link>https://atanasyanew.github.io/blog-tee/tags/about/</link>
-      <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
       
       <guid>https://atanasyanew.github.io/blog-tee/tags/about/</guid>
+      <description></description>
+    </item><item>
+      <title>Hugo</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/hugo/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/hugo/</guid>
+      <description></description>
+    </item><item>
+      <title>Ssg</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/ssg/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/ssg/</guid>
       <description></description>
     </item><item>
       <title>Typography</title>

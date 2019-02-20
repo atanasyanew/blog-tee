@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>About &middot; TЕЕ</title>
+  <meta name="description" content="About this project" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" />
+  <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/main.min.css" />
+  <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/custom.css" />
+  
+  
+</head>
+
+<body class="single-body">
+  <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="https://atanasyanew.github.io/blog-tee" class="nav-text">TЕЕ</a></h1>
+  <div class="hamburger-menu">
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="https://atanasyanew.github.io/blog-tee" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="https://atanasyanew.github.io/blog-tee/about/" class="hamburger-menu-overlay-link">About</a></li>
+      
+    </ul>
+  </div>
+</nav>
+  <main class="content side-text-padding">
+    <article class="post ">
+      <header class="post-header">
+        <h1 class="post-title">About</h1>
+
+        <p class="post-date">
+          Posted <time datetime="2019-02-20">Feb 20, 2019</time>
+
+          <br> Categories
+          <a class="tag" href="https://atanasyanew.github.io/blog-tee/categories/about">About</a>
+
+          <br> Keywords
+          <a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/hugo">Hugo</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/about">About</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/ssg">S s g</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/"></a>
+        </p>
+
+      </header>
+      
+      <picture class="post-figure">
+        
+        <source srcset="https://atanasyanew.github.io/blog-tee/img/20190220-featuredImage-about.png">
+        <img src="https://atanasyanew.github.io/blog-tee/img/20190220-featuredImage-about.png"
+          alt="" >
+      </picture>
+      
+      
+
+<h2 id="brief-overview">Brief overview</h2>
+
+<p>About the project in general&hellip;</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<p>WIP:
+go
+hugo
+theme
+ci-cd
+github - deploy
+dns
+etc&hellip;</p>
+
+<p>TODO: talk about the used software, installation, modifications, helpful links content writing etc..</p>
+
+<h2 id="tech">Tech</h2>
+
+<p>i a using markdown for content creating</p>
+
+<h2 id="installing-and-running">Installing and running</h2>
+
+<p>Assuming git is already installed.</p>
+
+<p>Hugo is easy to install, just follow the guide from the <a href="https://gohugo.io/getting-started/installing/">official documentation</a></p>
+
+<p>After all of the installation processes the site can be run with</p>
+
+<pre><code class="language-sh">hugo serve
+</code></pre>
+
+<p>This command serve the application which is now accessible at localhost:1313</p>
+
+<h2 id="copyrighting">Copyrighting</h2>
+
+<p>Typography example is shown in the another post.
+A new post can be create by either create new file in the <code>./content/post</code> folder or by terminal.</p>
+
+<pre><code class="language-shell">hugo new post/YYYY-MM-DD-name.md
+</code></pre>
+
+<p>This command will create a new post with the default template.</p>
+
+<h2 id="deploy">Deploy</h2>
+
+<p>For hosting the entire project is used the free <a href="https://github.com/">GitHub</a> feature <a href="https://pages.github.com/">GitHub Pages</a>. GitHub Pages are hosted directly from your GitHub repository, so it is possible to just edit, push, and changes are live.</p>
+
+<p>In order to deploy a shell scripts is used, basically the script build the application (generates the static content) and then commit and push the changes to the hosted git-pages branch. More information about the deploy script can be found at <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo documentation</a></p>
+
+<p>Deployment with the script can be done with the following command execute inside git bash</p>
+
+<pre><code class="language-sh"> ./deploy.sh
+</code></pre>
+
+<p>Deployment process can be optimized more with the Continuous deployment technique.
+There are serval Continuous deployment providers that the project can be integrate with, such as AzureDevOps,and Forestry.io</p>
+
+<h2 id="typical-use-case">Typical use case</h2>
+
+<p>go to source folder
+run the project&hellip; hugo serve
+create new post
+save
+commit
+push</p>
+
+<p>execute deploy script</p>
+
+    </article>
+    
+  </main>
+  <nav class="end-nav side-padding">
+    
+    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/" class="card blog-card" rel="bookmark" >
+    
+    <div class="card-img-container">
+      <p class="card-img-overlay">Next Article</p>
+      <picture>
+        
+        <source srcset="https://atanasyanew.github.io/blog-tee/img/20190201-featuredImage-typography.png">
+        <img src="https://atanasyanew.github.io/blog-tee/img/20190201-featuredImage-typography.png" class="card-img" alt="Description for the featured image, used as the alt text">
+      </picture>
+    </div>
+    
+  <article class="card-body">
+    <h2 class="card-title">Typography</h2>
+    <p class="card-text">Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-02-01 21:00">Feb 1, 2019</time></p>
+      <p>#About </p>
+    </div>
+  </article>
+</a>
+    
+    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://atanasyanew.github.io/blog-tee" class="card home-card" style="background-image: url( https://atanasyanew.github.io/blog-tee/img/grey-cloud.jpg )" rel="bookmark" >
+  Home
+</a>
+  </nav>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script src="https://atanasyanew.github.io/blog-tee/js/core.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+
+</html>

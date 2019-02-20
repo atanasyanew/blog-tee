@@ -11,19 +11,19 @@
         <atom:link href="https://atanasyanew.github.io/blog-tee/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>About</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</guid>
+      <description>About this project</description>
+    </item><item>
       <title>Typography</title>
       <link>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</link>
       <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
       
       <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</guid>
       <description>Typography and styles of the posts, this is the description of the post (displayed in the post&#39;s card)</description>
-    </item><item>
-      <title>Aether Features</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/aether-features/</link>
-      <pubDate>Wed, 19 Dec 2018 15:35:35 +0000</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/post/aether-features/</guid>
-      <description>Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.</description>
     </item>
   </channel>
 </rss>

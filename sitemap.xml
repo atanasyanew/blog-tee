@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</loc>
     <lastmod>2019-02-01T21:56:55+02:00</lastmod>
   </url>
@@ -13,48 +18,55 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/aether-features/</loc>
-    <lastmod>2018-12-19T15:35:35+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/</loc>
     <lastmod>2018-04-27T09:46:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/about/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/about/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/about/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/categories/features/</loc>
-    <lastmod>2018-12-19T15:35:35+00:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/hugo/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/ssg/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
