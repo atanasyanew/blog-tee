@@ -12,12 +12,6 @@ This platform aim to provide a variety of Theoretical electrical engineering rel
 
 For make all this happen an open source software is used
 
-WIP:
-go
-hugo
-theme
-ci-cd
-github - deploy
-dns
-etc...
+todo:
+talk about the idea for the project
  
