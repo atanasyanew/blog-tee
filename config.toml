@@ -13,4 +13,7 @@ description = "Theoretical electrical engineering related topics"
 #homeimg = "url to the image used for the home button - optional"
 #bgimg = "url to the image used for the background - optional" "img/ignasi_pattern_s.png"
 
-
+# TODO [ay]
+# [permalinks]
+# posts = "/:year/:month/:title/"
+# https://gohugo.io/content-management/urls/#permalinks
