@@ -12,14 +12,18 @@
         <p class="post-date">
           Posted <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
 
-          <br> Categories
-          {{ range $key, $value := .Params.categories -}}
-          <a class="tag" href="{{ (printf "%s%s" "categories/" ($value | urlize)) | absURL }}">{{ $value | humanize }}</a>
+          {{ if isset .Params "categories" }}
+            <br> Categories
+            {{ range $key, $value := .Params.categories -}}
+            <a class="tag" href="{{ (printf "%s%s" "categories/" ($value | urlize)) | absURL }}">{{ $value | humanize }}</a>
+            {{- end }}
           {{- end }}
 
-          <br> Keywords
-          {{ range $key, $value := .Params.tags -}}
-          <a class="tag" href="{{ (printf "%s%s" "tags/" ($value | urlize)) | absURL }}">{{ $value | humanize }}</a>
+          {{ if isset .Params "tags" }}
+            <br> Keywords
+            {{ range $key, $value := .Params.tags -}}
+            <a class="tag" href="{{ (printf "%s%s" "tags/" ($value | urlize)) | absURL }}">{{ $value | humanize }}</a>
+            {{- end }}
           {{- end }}
         </p>
 

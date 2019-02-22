@@ -3,7 +3,7 @@ title: "Typography"
 date: 2019-02-01T21:56:55+02:00
 draft: false
 dropCap: true
-description: "Typography and styles of the posts, this is the description of the post (displayed in the post's card)"
+description: "Typography and styles of the posts, this is the description of the topic"
 featuredImage: "img/20190201-featuredImage-typography.png"
 featuredImageDescription: "Description for the featured image, used as the alt text"
 displayInMenu: false
