@@ -56,75 +56,76 @@
       
       
 
-<h2 id="brief-overview">Brief overview</h2>
+<h2 id="overview">Overview</h2>
 
-<p>About the project in general&hellip;</p>
+<p>The application is build on top of the <a href="https://gohugo.io/">Hugo</a>. Hugo is one of the most popular open-source static site generators (SSG), with its amazing speed and flexibility.</p>
 
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>Improved performance, security and ease of use are just a few of the reasons static site generators are so appealing. The purpose of website generators is to render content into HTML files. Most are “dynamic site generators.”, which means it is possible to review the files locally before copying them to the computer hosting the HTTP server.</p>
 
-<p>WIP:
-go
-hugo
-theme
-ci-cd
-github - deploy
-dns
-etc&hellip;</p>
+<p>A large pool of different open source themes are written for hugo. The application uses a modified version of theme called <a href="https://themes.gohugo.io/aether/">aether</a>.</p>
 
-<p>TODO: talk about the used software, installation, modifications, helpful links content writing etc..
-add google secret</p>
+<p>The content of the topics is written by <code>markdown</code> markup language. There are many third party solutions with user interface for content creating, such as forestry.io, instead of writing  <code>markdown</code></p>
 
-<h2 id="tech">Tech</h2>
-
-<p>i a using markdown for content creating</p>
+<p>The application uses a <a href="https://github.com/">GitHub</a> repository for the source code files and <a href="https://pages.github.com/">GitHub Pages</a> for deployment. A custom shell script is used for deployment, but this process can be optimized further more with continuous integration and continuous delivery (CI CD).</p>
 
 <h2 id="installing-and-running">Installing and running</h2>
 
-<p>Assuming git is already installed.</p>
+<p>Assuming git is already installed.
+Hugo is easy to install, just follow the guide from the <a href="https://gohugo.io/getting-started/installing/">official documentation</a>.</p>
 
-<p>Hugo is easy to install, just follow the guide from the <a href="https://gohugo.io/getting-started/installing/">official documentation</a></p>
-
-<p>After all of the installation processes the site can be run with</p>
+<p>After all of the installation processes finish, the application can be run with the following command, executed inside of the terminal.</p>
 
 <pre><code class="language-sh">hugo serve
 </code></pre>
 
-<p>This command serve the application which is now accessible at localhost:1313</p>
+<p>This command serve the application which is now accessible at <code>localhost:1313</code></p>
 
-<h2 id="copyrighting">Copyrighting</h2>
+<h2 id="content-creation">Content creation</h2>
 
-<p>Typography example is shown in the another post.
-A new post can be create by either create new file in the <code>./content/post</code> folder or by terminal.</p>
+<p>Lightweight markup language - markdown is used for the content creation.</p>
+
+<p>Typography examples are shown in the another topic.</p>
+
+<p>A new post can be create by either create new file in the <code>./content/post</code> folder or by terminal.</p>
 
 <pre><code class="language-shell">hugo new post/YYYY-MM-DD-name.md
 </code></pre>
 
 <p>This command will create a new post with the default template.</p>
 
-<h2 id="deploy">Deploy</h2>
+<h2 id="deployment">Deployment</h2>
 
 <p>For hosting the entire project is used the free <a href="https://github.com/">GitHub</a> feature <a href="https://pages.github.com/">GitHub Pages</a>. GitHub Pages are hosted directly from your GitHub repository, so it is possible to just edit, push, and changes are live.</p>
 
 <p>In order to deploy a shell scripts is used, basically the script build the application (generates the static content) and then commit and push the changes to the hosted git-pages branch. More information about the deploy script can be found at <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo documentation</a></p>
 
-<p>Deployment with the script can be done with the following command execute inside git bash</p>
+<p>Deployment with the script can be done with the following command executed inside git bash</p>
 
 <pre><code class="language-sh"> ./deploy.sh
 </code></pre>
 
-<p>Deployment process can be optimized more with the Continuous deployment technique.
-There are serval Continuous deployment providers that the project can be integrate with, such as AzureDevOps,and Forestry.io</p>
+<p>Deployment process can be optimized more with the Continuous deployment technique.</p>
+
+<p>There are serval Continuous deployment providers that the project can be integrate with, such as AzureDevOps and Forestry.io</p>
 
 <h2 id="typical-use-case">Typical use case</h2>
 
-<p>go to source folder
-run the project&hellip; hugo serve
-create new post
-save
-commit
-push</p>
+<p>The following example serves locally the application in order to review our changes, creating a new topic, then commit the changes to the master branch and deploy the newly version of the generated static content.</p>
 
-<p>execute deploy script</p>
+<pre><code class="language-sh"># Navigate to the source code folder and run the project
+hugo serve
+
+# Create a new topic
+hugo new post/YYYY-MM-DD-name.md
+
+# Save and commit and push the changes
+git add .
+git commit -m &quot;Added topic YYYY-MM-DD-name&quot;
+git push origin master
+
+# Deploy
+./deploy.sh
+</code></pre>
 
     </article>
     
