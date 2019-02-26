@@ -5,7 +5,7 @@ canonifyurls = true
 paginate = 9
 theme = "aether-modified"
 languageCode = "en-US"
-#googleAnalytics = "Your google analytics tracking ID"
+googleAnalytics = "UA-135269393-1"
 
 [params]
 brand = "TЕЕ"
