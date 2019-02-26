@@ -185,7 +185,8 @@ Here is `var s = "Hello World"` inline code
 
 #### [Mathjax](https://www.mathjax.org/)
 
-$$ \begin{matrix}
+$$
+    \begin{matrix}
     1 & x & x^2 \\
     1 & y & y^2 \\
     1 & z & z^2 \\
@@ -195,9 +196,7 @@ $$
 $$\omega$$
 
 $$
- f(x) = sin(o
-\varphi
-\sqrt{x^3+1, where\ne 2*a1}
+ f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$
 
 
@@ -212,4 +211,18 @@ $$
 {{< raw >}}
 \[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
 {{< /raw >}}
+
+
+## Diagrams
+
+[Mermaid JS](https://mermaidjs.github.io/)
+
+​```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+​```
+
 
