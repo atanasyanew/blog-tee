@@ -259,7 +259,8 @@ alert(s);
 
 <h4 id="mathjax-https-www-mathjax-org"><a href="https://www.mathjax.org/">Mathjax</a></h4>
 
-<p>$$ \begin{matrix}
+<p>$$
+    \begin{matrix}
     1 &amp; x &amp; x^2 <br />
     1 &amp; y &amp; y^2 <br />
     1 &amp; z &amp; z^2 <br />
@@ -269,9 +270,7 @@ $$</p>
 <p>$$\omega$$</p>
 
 <p>$$
- f(x) = sin(o
-\varphi
-\sqrt{x^3+1, where\ne 2*a1}
+ f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$</p>
 
 <h4 id="latex-style-math-typsetting-with-katex-https-katex-org"><a href="https://katex.org/">LaTeX style math typsetting with KaTeX</a></h4>
@@ -284,6 +283,18 @@ $$</p>
 
 \[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
 
+
+<h2 id="diagrams">Diagrams</h2>
+
+<p><a href="https://mermaidjs.github.io/">Mermaid JS</a></p>
+
+<p>​<code>mermaid
+graph LR
+A[Hard edge] --&gt;B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+​</code></p>
 <div class="footnotes">
 
 <hr />
@@ -306,15 +317,18 @@ $$</p>
   </nav>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
-</script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
+
 <script src="https://atanasyanew.github.io/blog-tee/js/core.js"></script>
+
 <script>
   hljs.initHighlightingOnLoad();
 </script>
+
+<script src="https://atanasyanew.github.io/blog-tee/js/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 </body>
 
 </html>

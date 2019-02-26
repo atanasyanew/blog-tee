@@ -66,7 +66,7 @@
 
 <p>A large pool of different open source themes are written for hugo. The application uses a modified version of theme called <a href="https://themes.gohugo.io/aether/">aether</a>.</p>
 
-<p>The content of the topics is written by <code>markdown</code> markup language. There are many third party solutions with user interface for content creating, such as forestry.io, instead of writing  <code>markdown</code></p>
+<p>The content of the topics is written by <code>markdown</code> markup language. There are many third party solutions with user interface for content creating, such as forestry.io, instead of writing <code>markdown</code></p>
 
 <p>The application uses a <a href="https://github.com/">GitHub</a> repository for the source code files and <a href="https://pages.github.com/">GitHub Pages</a> for deployment. A custom shell script is used for deployment, but this process can be optimized further more with continuous integration and continuous delivery (CI CD).</p>
 
@@ -163,15 +163,18 @@ git push origin master
   </nav>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
-<script type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
-</script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
+
 <script src="https://atanasyanew.github.io/blog-tee/js/core.js"></script>
+
 <script>
   hljs.initHighlightingOnLoad();
 </script>
+
+<script src="https://atanasyanew.github.io/blog-tee/js/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 </body>
 
 </html>
