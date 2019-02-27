@@ -141,7 +141,7 @@ Footnotes[^1] are also part of markdown features.
 ```md
 {{</* smallimg src="/img/20190201-featuredImage-typography.png" alt="typography" smartfloat="left" width="250px" */>}}
 ```
-{{< smallimg src="/img/20190201-featuredImage-typography.png" alt="typography" smartfloat="left" width="250px" >}}
+{{<smallimg src="/img/20190201-featuredImage-typography.png" alt="typography" smartfloat="left" width="250px">}}
 
 This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows the New York skyline. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
 
