@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TEE - TЕЕ</title>
-    <link>https://atanasyanew.github.io/blog-tee/</link>
-    <description>Recent content in TEE on TЕЕ</description>
+    <title>Ac Circuits - TЕЕ</title>
+    <link>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</link>
+    <description>Recent content in Ac Circuits on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 27 Apr 2018 09:46:15 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 23:32:41 +0200</lastBuildDate>
     
-        <atom:link href="https://atanasyanew.github.io/blog-tee/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/ac-circuits/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sine waves in elements</title>
@@ -24,20 +24,6 @@
       
       <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-26-ac-circuits-phase-shift/</guid>
       <description>Phase Difference is used to describe the difference in degrees or radians when two or more alternating quantities reach their maximum or zero values</description>
-    </item><item>
-      <title>About</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</link>
-      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</guid>
-      <description>About this project</description>
-    </item><item>
-      <title>Typography</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</link>
-      <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</guid>
-      <description>Typography and styles of the posts, this is the description of the topic</description>
     </item>
   </channel>
 </rss>

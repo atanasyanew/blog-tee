@@ -6,11 +6,25 @@
     <description>Recent content in Posts on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 20 Feb 2019 20:36:38 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 23:32:41 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sine waves in elements</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-27-sine-waves-in-elements/</link>
+      <pubDate>Wed, 27 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-27-sine-waves-in-elements/</guid>
+      <description>The physical laws behind the different AC circuit elements</description>
+    </item><item>
+      <title>Phase Shift</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-26-ac-circuits-phase-shift/</link>
+      <pubDate>Tue, 26 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-26-ac-circuits-phase-shift/</guid>
+      <description>Phase Difference is used to describe the difference in degrees or radians when two or more alternating quantities reach their maximum or zero values</description>
+    </item><item>
       <title>About</title>
       <link>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</link>
       <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>

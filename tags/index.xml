@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TЕЕ</title>
+    <title>Tags - TЕЕ</title>
     <link>https://atanasyanew.github.io/blog-tee/tags/</link>
-    <description>Recent content on TЕЕ</description>
+    <description>Recent content in Tags on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 20 Feb 2019 20:36:38 +0200</lastBuildDate>
@@ -12,11 +12,60 @@
     
     <item>
       <title>About</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</link>
+      <link>https://atanasyanew.github.io/blog-tee/tags/about/</link>
       <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</guid>
-      <description>About this project</description>
+      <guid>https://atanasyanew.github.io/blog-tee/tags/about/</guid>
+      <description></description>
+    </item><item>
+      <title>Ac Circuits</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</link>
+      <pubDate>Wed, 27 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</guid>
+      <description></description>
+    </item><item>
+      <title>Hugo</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/hugo/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/hugo/</guid>
+      <description></description>
+    </item><item>
+      <title>Phase Shift</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/phase-shift/</link>
+      <pubDate>Tue, 26 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/phase-shift/</guid>
+      <description></description>
+    </item><item>
+      <title>Rlc</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/rlc/</link>
+      <pubDate>Wed, 27 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/rlc/</guid>
+      <description></description>
+    </item><item>
+      <title>Sine Wave</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/sine-wave/</link>
+      <pubDate>Wed, 27 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/sine-wave/</guid>
+      <description></description>
+    </item><item>
+      <title>Ssg</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/ssg/</link>
+      <pubDate>Wed, 20 Feb 2019 20:36:38 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/ssg/</guid>
+      <description></description>
+    </item><item>
+      <title>Typography</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/typography/</link>
+      <pubDate>Fri, 01 Feb 2019 21:56:55 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/typography/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
