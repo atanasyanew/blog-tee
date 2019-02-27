@@ -122,7 +122,7 @@ Footnotes[^1]
 [^1]: Footnote: this is a footnote!
 ```
 
-Footnotes[^1] are also part of markdown features. So easy to create!
+Footnotes[^1] are also part of markdown features.
 [^1]: Footnote: this is a footnote!
 
 ---
@@ -185,20 +185,15 @@ Here is `var s = "Hello World"` inline code
 
 #### [Mathjax](https://www.mathjax.org/)
 
+```
 $$
-    \begin{matrix}
-    1 & x & x^2 \\
-    1 & y & y^2 \\
-    1 & z & z^2 \\
-    \end{matrix}
+ f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$
-
-$$\omega$$
+```
 
 $$
  f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$
-
 
 #### [LaTeX style math typsetting with KaTeX](https://katex.org/)
 
