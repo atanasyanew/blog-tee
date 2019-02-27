@@ -210,11 +210,10 @@ if (!doNotTrack) {
 <h3 id="footnotes">Footnotes</h3>
 
 <pre><code class="language-md">Footnotes[^1] 
+[^1]: Footnote: this is a footnote!
 </code></pre>
 
-<p>Footnotes<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> are also part of markdown features. So easy to create!</p>
-
-<hr />
+<h2 id="footnotes-1-are-also-part-of-markdown-features">Footnotes<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> are also part of markdown features.</h2>
 
 <h2 id="images">Images</h2>
 
@@ -271,15 +270,10 @@ alert(s);
 
 <h4 id="mathjax-https-www-mathjax-org"><a href="https://www.mathjax.org/">Mathjax</a></h4>
 
-<p>$$
-    \begin{matrix}
-    1 &amp; x &amp; x^2 <br />
-    1 &amp; y &amp; y^2 <br />
-    1 &amp; z &amp; z^2 <br />
-    \end{matrix}
-$$</p>
-
-<p>$$\omega$$</p>
+<pre><code>$$
+ f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
+$$
+</code></pre>
 
 <p>$$
  f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
@@ -397,6 +391,34 @@ merge newbranch
   Home
 </a>
   </nav>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js"
   integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
@@ -411,10 +433,10 @@ merge newbranch
 </script>
 
 
-<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551290831"
+<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551296511"
   type="text/css" rel="stylesheet" />
 <script
-  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551290831"></script>
+  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551296511"></script>
 <script>
   mermaid.initialize({
     startOnLoad: true,

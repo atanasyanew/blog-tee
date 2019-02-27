@@ -173,6 +173,34 @@ git push origin master
   Home
 </a>
   </nav>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js"
   integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
@@ -187,10 +215,10 @@ git push origin master
 </script>
 
 
-<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551290831"
+<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551296511"
   type="text/css" rel="stylesheet" />
 <script
-  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551290831"></script>
+  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551296511"></script>
 <script>
   mermaid.initialize({
     startOnLoad: true,
