@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harmonics - TЕЕ</title>
+    <link>https://atanasyanew.github.io/blog-tee/tags/harmonics/</link>
+    <description>Recent content in Harmonics on TЕЕ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 Feb 2019 23:22:41 +0200</lastBuildDate>
+    
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/harmonics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Modeling and analysis of hybrid power station</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</link>
+      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</guid>
+      <description>As the paper tittle suggest, we created a simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage</description>
+    </item>
+  </channel>
+</rss>

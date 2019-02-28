@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Three Phase Inverter - TЕЕ</title>
+    <link>https://atanasyanew.github.io/blog-tee/tags/three-phase-inverter/</link>
+    <description>Recent content in Three Phase Inverter on TЕЕ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 Feb 2019 23:22:41 +0200</lastBuildDate>
+    
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/three-phase-inverter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simulation of three-phase invertor for quasi-sinusoidal voltage</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</link>
+      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</guid>
+      <description>A inverter that synthesizes three-phase quasi-sinusoidal voltage supply to the active load through method of controlled pulses with pulse-width modulation is investigated.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,11 +6,18 @@
     <description>Recent content in Ac Circuits on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 27 Feb 2019 23:32:41 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 23:32:41 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/tags/ac-circuits/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sinusoidal modes in linear circuits</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-sinusoidal-modes-in-linear-circuits/</link>
+      <pubDate>Thu, 28 Feb 2019 23:32:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-sinusoidal-modes-in-linear-circuits/</guid>
+      <description>Linear circuit is an electronic circuit in which, for a sinusoidal input voltage of frequency f, any steady-state output of the circuit is also sinusoidal with frequency f</description>
+    </item><item>
       <title>Sine waves in elements</title>
       <link>https://atanasyanew.github.io/blog-tee/post/2019-02-27-sine-waves-in-elements/</link>
       <pubDate>Wed, 27 Feb 2019 23:32:41 +0200</pubDate>
