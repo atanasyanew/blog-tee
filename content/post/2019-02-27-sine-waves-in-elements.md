@@ -8,7 +8,7 @@ description: "The physical laws behind the different AC circuit elements"
 featuredImageDescription: "Sine waves in elements"
 displayInMenu: false
 categories: ["Theoretical"]
-tags: [ "Sine wave", "AC Circuits", "RLC"]
+tags: ["Sine wave", "AC Circuits", "RLC"]
 displayInList: true
 ---
 
