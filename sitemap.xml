@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-sinusoidal-modes-in-linear-circuits/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
   </url>
@@ -25,16 +20,6 @@
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-27-sine-waves-in-elements/</loc>
-    <lastmod>2019-02-27T23:32:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-26-ac-circuits-phase-shift/</loc>
-    <lastmod>2019-02-26T23:32:41+02:00</lastmod>
   </url>
   
   <url>
@@ -58,20 +43,14 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/categories/about/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/about/</loc>
     <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/categories/about/</loc>
+    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,12 +103,6 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/linear-circuits/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/magnetic-induction/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
@@ -142,13 +115,13 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/categories/modeling/</loc>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/modeling/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/modeling/</loc>
+    <loc>https://atanasyanew.github.io/blog-tee/categories/modeling/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -166,12 +139,6 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/phase-shift/</loc>
-    <lastmod>2019-02-26T23:32:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
@@ -179,7 +146,7 @@
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
+    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -202,19 +169,13 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/rlc/</loc>
-    <lastmod>2019-02-27T23:32:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atanasyanew.github.io/blog-tee/categories/simulation/</loc>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/simulation/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/simulation/</loc>
+    <loc>https://atanasyanew.github.io/blog-tee/categories/simulation/</loc>
     <lastmod>2019-02-28T23:22:41+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -232,12 +193,6 @@
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/sine-wave/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/ssg/</loc>
     <lastmod>2019-02-20T20:36:38+02:00</lastmod>
     <priority>0</priority>
@@ -246,12 +201,6 @@
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/</loc>
     <lastmod>2019-02-20T20:36:38+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atanasyanew.github.io/blog-tee/categories/theoretical/</loc>
-    <lastmod>2019-02-28T23:32:41+02:00</lastmod>
     <priority>0</priority>
   </url>
   

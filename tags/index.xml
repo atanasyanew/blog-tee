@@ -18,13 +18,6 @@
       <guid>https://atanasyanew.github.io/blog-tee/tags/about/</guid>
       <description></description>
     </item><item>
-      <title>Ac Circuits</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</link>
-      <pubDate>Thu, 28 Feb 2019 23:32:41 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/ac-circuits/</guid>
-      <description></description>
-    </item><item>
       <title>Analysis</title>
       <link>https://atanasyanew.github.io/blog-tee/tags/analysis/</link>
       <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
@@ -74,11 +67,18 @@
       <guid>https://atanasyanew.github.io/blog-tee/tags/hybrid-power-station/</guid>
       <description></description>
     </item><item>
-      <title>Linear Circuits</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/linear-circuits/</link>
-      <pubDate>Thu, 28 Feb 2019 23:32:41 +0200</pubDate>
+      <title>Magnetic Induction</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/magnetic-induction/</link>
+      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/tags/linear-circuits/</guid>
+      <guid>https://atanasyanew.github.io/blog-tee/tags/magnetic-induction/</guid>
+      <description></description>
+    </item><item>
+      <title>Matlab</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/matlab/</link>
+      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/matlab/</guid>
       <description></description>
     </item>
   </channel>
