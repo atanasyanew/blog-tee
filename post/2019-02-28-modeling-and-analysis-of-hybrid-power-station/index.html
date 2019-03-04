@@ -70,7 +70,145 @@ if (!doNotTrack) {
       </header>
       
       
-      <p>Work in progress..</p>
+      
+
+<p>The power station with renewable generating sources is considered. It connsist of Photovoltaic plant and Wind-generator. A model of hybrid power station in MATLAB is created. Simulations of the power station operation have been carried out in different modes. The performance of hybrid power station is analysed. The har-monic composition of the generated AC voltage with an industrial frequency is investigated.</p>
+
+<h2 id="content">Content</h2>
+
+<ul>
+<li>Introduction</li>
+<li>Description of the hybrid power station</li>
+<li>Model of the hybrid power station</li>
+<li>Simulation results</li>
+<li>Discussion and Conclusion</li>
+<li>References</li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>First of all I want to talk about the key features of the renewable and hybrid sources and how we can take advantage of it.
+A convenient, cost-effective and reliable power supply is an essential factor in the development of any area.
+There are several ways by which electricity can be generated locally using renewable sources such as solar, wind, biogas, etc.
+At present, standalone solar photovoltaic and wind systems have been promoted around the globe on a comparatively larger scale.
+These independent systems cannot provide continuous source of energy, as they are seasonal.
+Therefore, suitable energy storage systems will be required for these systems in order to satisfy the power demands.
+Usually storage system is expensive and the size has to be reduced to a minimum possible for the renewable energy system to be cost effective.
+The cost effective solution would be hybrid power systems which can reduce energy storage requirements and of course more reliable and continuous power source</p>
+
+<h2 id="description-of-the-hybrid-power-station">Description of the hybrid power station</h2>
+
+<p>Configuration structure for hybrid system based solar and wind energy sources.</p>
+
+<p>Fig.1 Configuration of Hybrid Energy System.</p>
+
+<p><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig1-configuration-of-hybrid-energy-system.png" alt="Fig.1 Configuration of Hybrid Energy System" /></p>
+
+<p>Figure 1 show the configuration structure for hybrid system based solar and wind energy sources.
+The hybrid power station is consist two reenable sources of small power (10kW) PV plant and wind generator.
+Тhe power station is not connected to a distribution grid and power system supplied the AC loads.
+To store the generated electricity in the case of  an absence of generating power, a rechargeable battery is used.
+The transformation of the produced energy with DC-AC inverter is carried out.
+To restrict and optimize charging and battery discharge processes a controller is used.</p>
+
+<p>The hybrid power generation system using wind and solar power includes the following subsystem: solar array, wind turbine, charge controller, battery bank and inverter.</p>
+
+<h3 id="pv-plant">PV plant</h3>
+
+<p>It consists of an arrangement of several components, including solar panels.
+Solar panels are used to convert solar radiation to the electrical energy.
+Solar panel is a group of a several monocrystalline silicon(mono-Si) modules electrically connected in series parallel combination to generate the required current and voltage.
+The electrical power of PV plant is 10 kW, its efficiency is 15.75% and the area of the solar collectors is 63.5 square meters. Тhe generated electricity per year is 10 MWh [3].</p>
+
+<h3 id="wind-turbine">Wind turbine</h3>
+
+<p>Wind turbine is that system which extracts energy from wind by rotation of the blades of the wind turbine. The wind turbine is of the vertical type. The power generated from wind is not continuous its fluctuating. А wind turbine data and electricity generation from the wind turbine using RETScreen Expert software tool [6] are calculated. They are presented in Figure 4 and Figure 5, respectively.</p>
+
+<h3 id="charge-controller">Charge controller</h3>
+
+<p>Charge controller has basic function is that it control the source which is to be active or inactive. It simultaneously charge battery and also gives power to the load. The controller has over-charge protection, short-circuit protection, pole confusion protection and automatic dumpload function. It has also the function, which it should vary the power as per the load demand. It add the both the power so that the load demand can fulfill. When power is not generating the controller should extract power from battery and give it to the load.</p>
+
+<h3 id="battery-energy-storage-system-bess">Battery Energy Storage System (BESS)</h3>
+
+<p>DC power Batteries are charged and discharged in different mode.
+Bidirectional power electronic devices are regulating power flow between batteries and energy systems [4].</p>
+
+<h3 id="inverter">Inverter</h3>
+
+<p>Inverter is need to convert DC power into AC power. As our load working on the AC supply so we need to convert DC power. The input voltage, output voltage and frequency, and overall power handling depends on the design of the specific device or the circuitry. The pure sign wave inverter is recommended, because it has minimal distortion and loses.</p>
+
+<h2 id="model-of-the-hybrid-power-station">Model of the hybrid power station</h2>
+
+<p>The entire system design of the hybrid energy system.
+A 10-kW PV / Wind / BESS (Battery Energy Storage System) hybrid system.</p>
+
+<p>Fig. 6 Block diagram of the simulated Hybrid Power Station</p>
+
+<p><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig6-block-diagram-of-the-simulated-hybrid-power-station.png" alt="Fig. 6 Block diagram of the simulated Hybrid Power Station" /></p>
+
+<p>The entire system design of the hybrid energy system is simulated using SIMULINK.
+A 10-kW PV / wind / BESS (Battery Energy Storage System) hybrid system was considered.
+Figure 6 show the simulation schematic for hybrid station with solar and wind sources.
+All the energy sources are modelled using MATLAB [7] software tool to analyse their behaviour.
+An easy control technique tracks the maximum power from the solar / wind energy source to accomplish much higher generating capacity factors.
+The simulation results prove the feasibility and reliability of this proposed system.</p>
+
+<h2 id="simulation-results">Simulation results</h2>
+
+<p>Several simulation of the operation and conditions of the hybrid power plant are carried out.
+The different simulations are presented in the slide
+As you can see for Simulation 1, there are different whether conditions for both pv and wind sources
+For simulation 2 – the pv plant produce max power, while no wind power is generated
+Simulation 3 – there is max wind power, but no solar energy is generated
+Simulation 4 and 5 the hybrid power station generates 60% of its capacity, while the first simulation more of the power comes from the wind, and the second simulation from photovoltaic plan</p>
+
+<p>Common conditions
+The load demand to fulfil is 10 KW throughout the time scale except at 4 to 5 sec when it increases to 14 KW.
+Battery initial state-of-charge 60%.</p>
+
+<ul>
+<li>Simulation 1 - Case of variable weather conditions
+Solar energy drops its irradiance from 100% to 25 % from 2 sec.
+Wind turbine initially rotating at 5m/s excels to base speed 12m/s after 0.5 sec.
+Its rotating speed is decreased to 25 % of its base speed</li>
+<li>Simulation 2 - Maximum solar energy, while no wind power – 100% pv 0% wind</li>
+<li>Simulation 3 - maximum wind power, while no solar energy (0%, 12 m/s)</li>
+<li>Simulation 4 - Power station works with 60% of the installed power – 20% pv 40% wind</li>
+<li>Simulation 5 - Power station works with 60% of the installed power – 40% pv 20% wind</li>
+</ul>
+
+<h2 id="simulation-results-1">Simulation results</h2>
+
+<h3 id="simulation-1-case-of-variable-weather-conditions">Simulation 1, Case of variable weather conditions</h3>
+
+<p>The simulation results of voltages and currents in the three phases, and voltage and current in battery in this case are shown in Figure 7 and Figure 8, respectively.</p>
+
+<p>Fig. 7 Voltages and currents in the three phases
+<img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig7-voltages-and-currents-in-the-three-phases.png" alt="Fig. 7 Voltages and currents in the three phases" /></p>
+
+<p>Fig. 8 Voltages and currents in the battery
+<img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig8-voltages-and-currents-in-the-battery.png" alt="Fig. 8 Voltages and currents in the battery" /></p>
+
+<p>Fig. 9 Generated Wind power and PV power in Wats
+<img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig9-generated-wind-ppower-and-pv-power-in-wats.png" alt="Fig. 9 Generated Wind power and PV power in Wats" /></p>
+
+<p>Fig. 10 Harmonics analysis with two sources
+<img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/fig10-harmonics-analysis-with-two-sources.png" alt="Fig. 10 Harmonics analysis with two sources" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The electric power can be utilize where it generated so that it will reduce the transmission losses and cost.
+There are several ways by which electricity can be generated using renewable sources such as solar, wind, biogas, etc. Individual generation of solar and wind energy is costlier.
+The using the non conventional energy resources is highly safe for the environment as it doesn’t produce any emission and harmful waste product like conventional energy resources. It is cost effective solution for generation. It only need initial investment.
+Cost reduction can be done by increasing the production of the equipment and stimulate our economy by creating jobs in the manufacturing and installation of solar and wind energy systems.
+By using solar and wind integrated system we can electrify remote area, also in future it is applicable in smart grid to for metro cities avoid unwanted load shedding.
+Solar and wind energy integrated technologies have great potential.</p>
+
+<h2 id="references">References</h2>
+
+<p>The full content of this article can downloaded and read from the following url:</p>
+
+<p><a href="https://atanasyanew.github.io/blog-tee/posts-content/2019-02-28-modeling-and-analysis-of-hybrid-power-station/2019-02-28-modeling-and-analysis-of-hybrid-power-station.pdf">Modeling and analysis of hybrid power station</a></p>
 
     </article>
     
@@ -137,10 +275,10 @@ if (!doNotTrack) {
 </script>
 
 
-<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551700494"
+<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1551706303"
   type="text/css" rel="stylesheet" />
 <script
-  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551700494"></script>
+  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1551706303"></script>
 <script>
   mermaid.initialize({
     startOnLoad: true,
