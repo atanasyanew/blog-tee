@@ -1,6 +1,11 @@
 # Hugo default output directory
 /public
 
+# Hugo stuff
+hugo_0.56.3_Windows-64bit.zip
+hugo.exe
+/resources
+
 ## OS Files
 # Windows
 Thumbs.db

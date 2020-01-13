@@ -18,3 +18,12 @@
     margin: 1%;
     font-weight: inherit;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    word-break: normal;
+}

@@ -4,7 +4,7 @@ This repository is a home of Theoretical electrical engineering related topics
 
 ## Overview
 
-The application is build on top of the [Hugo](https://gohugo.io/). Hugo is one of the most popular open-source static site generators (SSG), with its amazing speed and flexibility. 
+The application is build on top of the [Hugo](https://gohugo.io/). Hugo is one of the most popular open-source static site generators (SSG), with its amazing speed and flexibility.
 
 Improved performance, security and ease of use are just a few of the reasons static site generators are so appealing. The purpose of website generators is to render content into HTML files. Most are “dynamic site generators.”, which means it is possible to review the files locally before copying them to the computer hosting the HTTP server.
 
@@ -18,6 +18,7 @@ The application uses a [GitHub](https://github.com/) repository for the source c
 
 Assuming git is already installed.
 Hugo is easy to install, just follow the guide from the [official documentation](https://gohugo.io/getting-started/installing/).
+**Hugo version used:** [v0.56.3](https://github.com/gohugoio/hugo/releases/tag/v0.56.3)
 
 After all of the installation processes finish, the application can be run with the following command, executed inside of the terminal.
 
@@ -76,5 +77,3 @@ git push origin master
 # Deploy
 ./deploy.sh
 ```
-
-

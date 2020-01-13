@@ -1,6 +1,6 @@
 ---
 title: "Typography"
-date: 2019-02-01T21:56:55+02:00
+date: 2019-02-01T10:10:10+02:00
 draft: false
 dropCap: true
 description: "Typography and styles of the posts, this is the description of the topic"
@@ -14,7 +14,7 @@ displayInList: true
 
 # Heading 1
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit? 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit?
 
 ---
 
@@ -32,14 +32,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam 
 
 ## Text
 
-**bold**
+**bold** - ``**bold**``
 
-_italic_ 
+_italic_   - ``_italic_``
 
-[link](https://www.google.com/)
+[link](https://www.google.com/) - ``[link](https://www.google.com/)``
 
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit? Architecto quis dignissimos porro pariatur impedit at odio illo ab sunt obcaecati eius consectetur distinctio, eligendi fuga sint fugit aspernatur ratione blanditiis veniam voluptates? Delectus magni optio voluptate odit incidunt nobis officiis mollitia fuga libero, reprehenderit fugit. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit? Architecto quis dignissimos porro pariatur impedit at odio illo ab sunt obcaecati eius consectetur distinctio, eligendi fuga sint fugit aspernatur ratione blanditiis veniam voluptates? Delectus magni optio voluptate odit incidunt nobis officiis mollitia fuga libero, reprehenderit fugit.
 
 Hic eos earum ipsum, reprehenderit, ut facere officiis vitae voluptas sunt atque quisquam, nobis deleniti sapiente laudantium quia libero nulla rerum beatae mollitia iusto similique! Nesciunt illo, harum facilis aperiam commodi. Amet perferendis voluptatem, itaque laboriosam, eos minima vero tempore at!
 
@@ -75,15 +74,15 @@ Hic eos earum ipsum, reprehenderit, ut facere officiis vitae voluptas sunt atque
 
 * Get groceries at Harris Teeter before the party
 * Get a Spider Man cake
-    * Chocolate or marble
-    * Whipped cream frosting
+  * Chocolate or marble
+  * Whipped cream frosting
 * Don't forget to walk the dog before you leave
 * Bring lots of plates and silverware so that we don't run out
-    * Plastic Dixie brand is fine
+  * Plastic Dixie brand is fine
 
 ---
 
-## Blockquote 
+## Blockquote
 
 ```md
 > This is in a blockquote
@@ -118,7 +117,7 @@ A helpful tool for generating markdown tables [Markdown Tables Generator]( https
 ### Footnotes
 
 ```md
-Footnotes[^1] 
+Footnotes[^1]
 [^1]: Footnote: this is a footnote!
 ```
 
@@ -126,7 +125,6 @@ Footnotes[^1] are also part of markdown features.
 [^1]: Footnote: this is a footnote!
 
 ---
-
 
 ## Images
 
@@ -141,6 +139,7 @@ Footnotes[^1] are also part of markdown features.
 ```md
 {{</* smallimg src="/img/20190201-featuredImage-typography.png" alt="typography" smartfloat="left" width="250px" */>}}
 ```
+
 {{<smallimg src="/img/20190201-featuredImage-typography.png" alt="typography" smartfloat="left" width="250px">}}
 
 This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows the New York skyline. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
@@ -182,10 +181,9 @@ Here is `var s = "Hello World"` inline code
 
 ## Math
 
+### [Mathjax](https://www.mathjax.org/)
 
-#### [Mathjax](https://www.mathjax.org/)
-
-```
+```Mathjax
 $$
  f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$
@@ -195,7 +193,7 @@ $$
  f(x) = sin(o\varphi\sqrt{x^3+1, where\ne 2*a1}
 $$
 
-#### [LaTeX style math typsetting with KaTeX](https://katex.org/)
+### [LaTeX style math typsetting with KaTeX](https://katex.org/)
 
 ```md
 {{</* raw */>}}
@@ -207,14 +205,13 @@ $$
 \[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
 {{< /raw >}}
 
-
 ## Diagrams
 
 [Mermaid JS](https://mermaidjs.github.io/)
 
 Generation of diagrams and flowcharts from text in a similar manner as markdown.
 
-### Examples:
+### Examples
 
 #### Basic flowchart
 
