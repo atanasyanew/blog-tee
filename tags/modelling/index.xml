@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modelling - TЕЕ</title>
+    <link>https://atanasyanew.github.io/blog-tee/tags/modelling/</link>
+    <description>Recent content in Modelling on TЕЕ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 13 Jan 2020 10:10:10 +0200</lastBuildDate>
+    
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PhD Proof of work</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2020-01-15-phd-proof-of-work/</link>
+      <pubDate>Mon, 13 Jan 2020 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2020-01-15-phd-proof-of-work/</guid>
+      <description>Phd activities over the study period</description>
+    </item><item>
+      <title>Modelling and analysis of hybrid power station</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</link>
+      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</guid>
+      <description>Simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage.</description>
+    </item>
+  </channel>
+</rss>

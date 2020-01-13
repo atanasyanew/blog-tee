@@ -6,17 +6,24 @@
     <description>Recent content in Photovoltaic Plant on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 28 Feb 2019 23:22:41 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 10:10:10 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Modeling and analysis of hybrid power station</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <title>Performance analysis and modelling of grid-connected small photovoltaic system</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/</link>
+      <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</guid>
-      <description>As the paper tittle suggest, we created a simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/</guid>
+      <description>The small PV power station, located in Southeast Bulgaria is analysed. Performance analysis of a 30 kW solar photovoltaic power plant is done</description>
+    </item><item>
+      <title>Modelling and analysis of hybrid power station</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</link>
+      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</guid>
+      <description>Simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage.</description>
     </item>
   </channel>
 </rss>

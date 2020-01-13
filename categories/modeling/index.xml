@@ -6,38 +6,45 @@
     <description>Recent content in Modeling on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 28 Feb 2019 23:22:41 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 10:10:10 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/categories/modeling/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Modeling and analysis of hybrid power station</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <title>Performance analysis and modelling of grid-connected small photovoltaic system</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/</link>
+      <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</guid>
-      <description>As the paper tittle suggest, we created a simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/</guid>
+      <description>The small PV power station, located in Southeast Bulgaria is analysed. Performance analysis of a 30 kW solar photovoltaic power plant is done</description>
     </item><item>
       <title>Numerical modeling of the magnetic field distribution in single-phase single-core transformer</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <link>https://atanasyanew.github.io/blog-tee/post/2018-09-13-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</link>
+      <pubDate>Thu, 13 Sep 2018 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</guid>
-      <description>An electromagnetic model of single-phase single-core transformer is made and a numerical simulation of the electromagnetic field is performed</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2018-09-13-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</guid>
+      <description>An electromagnetic model of single-phase single-core transformer is made and a numerical simulation of the electromagnetic field is performed.</description>
     </item><item>
-      <title>Simulation of sinusoidal voltage inverter using reducing switching losses PWM strategy</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <title>Modelling and analysis of hybrid power station</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</link>
+      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</guid>
-      <description>The article examines the work of a converter that synthesizes sinusoidal voltage supply to the active-inductive load through method of controlled high-frequency pulses with sinusoidal pulse-width modulation</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</guid>
+      <description>Simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage.</description>
     </item><item>
       <title>Simulation of three-phase invertor for quasi-sinusoidal voltage</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <link>https://atanasyanew.github.io/blog-tee/post/2017-06-02-simul-of-three-phase-inverter-for-quasi-sin-voltage/</link>
+      <pubDate>Fri, 02 Jun 2017 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</guid>
-      <description>A inverter that synthesizes three-phase quasi-sinusoidal voltage supply to the active load through method of controlled pulses with pulse-width modulation is investigated.</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2017-06-02-simul-of-three-phase-inverter-for-quasi-sin-voltage/</guid>
+      <description>An inverter that synthesizes three-phase quasi-sinusoidal voltage supply to the active load through method of controlled pulses with pulse-width modulation is investigated.</description>
+    </item><item>
+      <title>Simulation of sinusoidal voltage inverter using reducing switching losses PWM strategy</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2016-09-15-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</link>
+      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/post/2016-09-15-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</guid>
+      <description>The article examines the work of a converter that synthesizes sinusoidal voltage supply to the active-inductive load through method of controlled high-frequency pulses with sinusoidal pulse-width modulation.</description>
     </item>
   </channel>
 </rss>

@@ -6,24 +6,17 @@
     <description>Recent content in Matlab on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 28 Feb 2019 23:22:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jun 2018 10:10:10 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Modeling and analysis of hybrid power station</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
+      <title>Modelling and analysis of hybrid power station</title>
+      <link>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</link>
+      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</guid>
-      <description>As the paper tittle suggest, we created a simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage</description>
-    </item><item>
-      <title>Simulation of sinusoidal voltage inverter using reducing switching losses PWM strategy</title>
-      <link>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</link>
-      <pubDate>Thu, 28 Feb 2019 23:22:41 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</guid>
-      <description>The article examines the work of a converter that synthesizes sinusoidal voltage supply to the active-inductive load through method of controlled high-frequency pulses with sinusoidal pulse-width modulation</description>
+      <guid>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</guid>
+      <description>Simulation model of hybrid power station containing Photovoltaic and wind generator sources as well as energy storage.</description>
     </item>
   </channel>
 </rss>

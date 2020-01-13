@@ -3,33 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-modeling-and-analysis-of-hybrid-power-station/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2020-01-15-phd-proof-of-work/</loc>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/</loc>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-28-simul-of-three-phase-inverter-for-quasi-sin-voltage/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2019-06-01-interactive-edu-web-based-platform-for-tee-topics/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-20-about/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/2019-02-01-typography/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
   </url>
   
   <url>
@@ -38,193 +33,285 @@
   </url>
   
   <url>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2018-09-13-num-modeling-of-the-magn-field-in-single-phase-single-core-transf/</loc>
+    <lastmod>2018-09-13T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2018-06-01-modeling-and-analysis-of-hybrid-power-station/</loc>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atanasyanew.github.io/blog-tee/</loc>
     <lastmod>2018-04-27T09:46:15-04:00</lastmod>
   </url>
   
   <url>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2017-06-02-simul-of-three-phase-inverter-for-quasi-sin-voltage/</loc>
+    <lastmod>2017-06-02T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/post/2016-09-15-simul-of-sin-volt-inv-using-reducing-switching-losses-pwm-strategy/</loc>
+    <lastmod>2016-09-15T10:10:10+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/about/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/about/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/analysis/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/converter/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2016-09-15T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/categories/education/</loc>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/education-platform/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering/</loc>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering-platform/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-compatibility/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-interference/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-09-13T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/harmonic-limits/</loc>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/harmonics/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/hugo/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/hybrid-power-station/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/interactive-platform/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/learning-platform/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/magnetic-induction/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-09-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/matlab/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atanasyanew.github.io/blog-tee/tags/modeling/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/model/</loc>
+    <lastmod>2016-09-15T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/modeling/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/modelling/</loc>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/numerical-modelling/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-09-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/papers/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/performance/</loc>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/phd/</loc>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/post/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/power-losses/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2016-09-15T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/power-quality/</loc>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/pwm/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2017-06-02T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/reduced-distortion/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2017-06-02T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/simulation/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2020-01-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/categories/simulation/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2019-06-06T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/simulink/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2016-09-15T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/simulink-model/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2017-06-02T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/ssg/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/</loc>
-    <lastmod>2019-02-20T20:36:38+02:00</lastmod>
+    <lastmod>2019-02-20T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/three-phase-inverter/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2017-06-02T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/transformer/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-09-13T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/typography/</loc>
-    <lastmod>2019-02-01T21:56:55+02:00</lastmod>
+    <lastmod>2019-02-01T10:10:10+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atanasyanew.github.io/blog-tee/tags/web-based-education/</loc>
+    <lastmod>2019-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atanasyanew.github.io/blog-tee/tags/wind-generator/</loc>
-    <lastmod>2019-02-28T23:22:41+02:00</lastmod>
+    <lastmod>2018-06-01T10:10:10+02:00</lastmod>
     <priority>0</priority>
   </url>
   

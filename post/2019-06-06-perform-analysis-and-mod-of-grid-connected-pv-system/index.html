@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Performance analysis and modelling of grid-connected small photovoltaic system &middot; TЕЕ</title>
+  <meta name="description" content="The small PV power station, located in Southeast Bulgaria is analysed. Performance analysis of a 30 kW solar photovoltaic power plant is done" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/main.min.css" />
+  <link rel="stylesheet" href="https://atanasyanew.github.io/blog-tee/css/custom.css" />
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135269393-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  
+</head>
+
+<body class="single-body">
+  <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="https://atanasyanew.github.io/blog-tee" class="nav-text">TЕЕ</a></h1>
+  <div class="hamburger-menu">
+    <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="https://atanasyanew.github.io/blog-tee" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="https://atanasyanew.github.io/blog-tee/post/2020-01-15-phd-proof-of-work/" class="hamburger-menu-overlay-link">PhD Proof of work</a></li>
+      <li><a href="https://atanasyanew.github.io/blog-tee/about/" class="hamburger-menu-overlay-link">About</a></li>
+      
+    </ul>
+  </div>
+</nav>
+  <main class="content side-text-padding">
+    <article class="post ">
+
+      <header class="post-header">
+        <h1 class="post-title">Performance analysis and modelling of grid-connected small photovoltaic system</h1>
+
+        <p class="post-date">
+          <b>Posted</b> <time datetime="2019-06-06">Jun 6, 2019</time>
+        </p>
+
+        <p class="post-date">
+          
+          <b> Categories </b>
+          <a class="tag"
+            href="https://atanasyanew.github.io/blog-tee/categories/modeling">Modeling</a><a class="tag"
+            href="https://atanasyanew.github.io/blog-tee/categories/papers">Papers</a><a class="tag"
+            href="https://atanasyanew.github.io/blog-tee/categories/simulation">Simulation</a>
+        </p>
+
+        <p class="post-date">
+          
+          <b> Keywords </b>
+          <a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/electromagnetic-compatibility">Electromagnetic compatibility</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/harmonic-limits">Harmonic limits</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/performance">Performance</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/power-quality">Power quality</a><a class="tag" href="https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant">Photovoltaic plant</a>
+        </p>
+
+      </header>
+      
+      
+      
+
+<h2 id="abstract">Abstract</h2>
+
+<p>A grid-connected 30 kW small PV system, located in Southeast Bulgaria has been studied.
+Performance analysis of the PV system is done.
+The PV system is balanced according reactive power.
+The total harmonic distortion THD of the object is very low and satisfies the requirements of the standards.
+A model of PV system is created in MATLAB.
+Simulations of the operation in different modes have been carried out.
+The electromagnetic compatibility of analyzed small PV power system is satisfied.</p>
+
+<p>Power station details</p>
+
+<ul>
+<li>PV modules Polycrystalline silicon TRITEC TRI-MAX EU 250Wp.</li>
+<li>The modules are placed on a support rail with spacing to ensure free flow on air under the modules.</li>
+<li>A string by combination of series connecting modules (6 strings of 20 modules) is formed.</li>
+<li>PV system uses one HUAWEI SUN2000-33KTL - 30 KW.</li>
+<li>The inverter outputs at 400 V, 50 Hz.</li>
+</ul>
+
+<p>Performance analysis</p>
+
+<ul>
+<li>The performance analysis with apparatus Metrel MI 2392F was conducted. (instruments for power quality analysis)</li>
+<li>For gathering the necessary information, the device is connected to the inverter via L1/2/3 Clamps (clamps 3x300A, range 100%, U range: 240-1000V, L-N, Connection 4W)</li>
+<li>Several measurements are made over a certain time interval, each of 200ms duration and a density of 1024 points</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Fig. 3 Waveforms of voltages and current in normal mode</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/publication-06-fig-03.png" alt="Conclusion" title="Conclusion" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Fig. 5 Closer view for THD</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/publication-06-fig-05.png" alt="Conclusion" title="Conclusion" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>Measurement results</p>
+
+<ul>
+<li>The shape of the voltage and current are close to the sinusoidal curve.</li>
+<li>The power system is balanced according reactive power.</li>
+<li>Total harmonic distortion is minimal according to IEEE 519</li>
+</ul>
+
+<p>PV System Model</p>
+
+<ul>
+<li>A model of power system in MATLAB is created.</li>
+<li>A control technique is using to accomplish maximum generating power from the solar plant.</li>
+<li>The results of the simulation prove the stability and reliable operation of the investigated system.</li>
+<li>The investigated PV system using SIMULINK is simulated.</li>
+<li>A 30-kW PV system is considered.</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Fig. 6 Block diagram of the simulated PV system</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/publication-06-fig-06.png" alt="Conclusion" title="Conclusion" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Fig.8 Simulation result of the voltages in normal mode</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://atanasyanew.github.io/blog-tee/posts-content/2019-06-06-perform-analysis-and-mod-of-grid-connected-pv-system/publication-06-fig-08.png" alt="Conclusion" title="Conclusion" /></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The analyzed photovoltaic system has a significant advantage - it reduces the cost of transmission and distribution of electrical energy, because the power is produced with low voltage at the end point of use.
+The PV system is balanced according reactive power in normal mode.
+This does not obstruct the low voltage distribution grid with the transfer of reactive power.
+The total harmonic distortion of the object is very low and satisfies the requirements of the standards.
+The electromagnetic compatibility of analyzed small PV power system is satisfied.</p>
+
+    </article>
+    
+  </main>
+  <nav class="end-nav side-padding">
+    
+    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://atanasyanew.github.io/blog-tee/post/2019-06-01-interactive-edu-web-based-platform-for-tee-topics/" class="card blog-card" rel="bookmark" >
+    
+  <article class="card-body">
+    <h2 class="card-title">Interactive education web-based platform for theoretical electrical engineering related topics</h2>
+    <p class="card-text">Web-based educational platform, which delivers resources and theoretical electrical engineering related topics</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2019-06-01 61:00">Jun 1, 2019</time></p>
+      <p>#Education </p>
+    </div>
+  </article>
+</a>
+    
+    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://atanasyanew.github.io/blog-tee" class="card home-card" style="background-image: url( https://atanasyanew.github.io/blog-tee/img/grey-cloud.jpg )" rel="bookmark" >
+  Home
+</a>
+  </nav>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js"
+  integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js"
+  integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script src="https://atanasyanew.github.io/blog-tee/js/core.js"></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1578954965"
+  type="text/css" rel="stylesheet" />
+<script
+  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1578954965"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral'
+    
+  });
+</script>
+</body>
+
+</html>
