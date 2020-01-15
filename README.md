@@ -18,6 +18,7 @@ The application uses a [GitHub](https://github.com/) repository for the source c
 
 Assuming git is already installed.
 Hugo is easy to install, just follow the guide from the [official documentation](https://gohugo.io/getting-started/installing/).
+
 **Hugo version used:** [v0.56.3](https://github.com/gohugoio/hugo/releases/tag/v0.56.3)
 
 After all of the installation processes finish, the application can be run with the following command, executed inside of the terminal.
