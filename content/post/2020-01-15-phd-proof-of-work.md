@@ -13,6 +13,7 @@ displayInList: true
 ---
 
 Phd activities over the study period
+
 Slides of the content also available - [PhD PoW - slides](/posts-content/2020-01-15-phd-proof-of-work/202001-phd-proof-of-work-presentation.pdf)
 
 ## Table of Contents
