@@ -1,6 +1,6 @@
 ---
 title: "PhD Proof of work"
-date: 2020-01-13T10:10:10+02:00
+date: 2020-01-15T10:10:10+02:00
 draft: false
 dropCap: false
 description: "Phd activities over the study period"
@@ -44,7 +44,6 @@ Slides of the content also available - [PhD PoW - slides](/posts-content/2020-01
   - [Performance analysis and modelling of grid-connected small photovoltaic system](#performance-analysis-and-modelling-of-grid-connected-small-photovoltaic-system)
     - [Abstract](#abstract-5)
     - [Conclusion](#conclusion-5)
-- [Upcoming](#upcoming)
 
 ## Overview
 
@@ -445,15 +444,3 @@ The PV system is balanced according reactive power in normal mode.
 This does not obstruct the low voltage distribution grid with the transfer of reactive power.
 The total harmonic distortion of the object is very low and satisfies the requirements of the standards.
 The electromagnetic compatibility of analyzed small PV power system is satisfied.
-
----
-
-## Upcoming
-
-Тhe status is valid to date January 2020
-
-**Scientific papers**  
-Work in progress on two papers, while the one of them will hopefully took place at International Conference Automatics ‘2020 later this summer
-
-**Dissertation**
-Most of the work is done/committed, upcoming dissertation layout and formatting, assembling all the pieces together

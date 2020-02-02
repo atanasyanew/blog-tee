@@ -8,10 +8,8 @@ The file will be deleted as soon as the work completed.
 - [x] Google analytic
 - [x] UML Diagrams support
 - [x] Mathjax
-- [ ] Write some content
+- [x] Write some content
 
-Low priority tasks:
-
-- [ ] discuss (do we really need comments for posts?)
+- [ ] discuss (do we really need comments for the posts?)
 - [ ] 404 page should be added
 - [ ] Add Search (static search engine, index pages)
