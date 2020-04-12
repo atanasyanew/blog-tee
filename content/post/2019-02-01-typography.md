@@ -12,7 +12,40 @@ tags: [ "typography", "About"]
 displayInList: true
 ---
 
-# Heading 1
+<!-- TOC -->
+## Table of content - Typography
+
+- [Table of content - Typography](#table-of-content---typography)
+- [Heading 2](#heading-2)
+  - [Heading 3](#heading-3)
+    - [Heading 4](#heading-4)
+      - [Heading 5](#heading-5)
+        - [Heading 6](#heading-6)
+- [Text](#text)
+- [Ordered List](#ordered-list)
+- [Unordered List](#unordered-list)
+- [Blockquote](#blockquote)
+- [Tables](#tables)
+  - [Footnotes](#footnotes)
+- [Images](#images)
+  - [Small Images](#small-images)
+- [Code](#code)
+  - [Inline code](#inline-code)
+- [Math](#math)
+  - [Mathjax](#mathjax)
+  - [LaTeX style math typsetting with KaTeX](#latex-style-math-typsetting-with-katex)
+- [Diagrams](#diagrams)
+  - [Examples](#examples)
+    - [Basic flowchart](#basic-flowchart)
+    - [Class diagram](#class-diagram)
+    - [Gantt diagram](#gantt-diagram)
+    - [Git graph](#git-graph)
+- [Embedding](#embedding)
+  - [Twitter](#twitter)
+  - [YouTube](#youtube)
+  - [Vimeo](#vimeo)
+  - [GitHub Gist](#github-gist)
+  - [JSFiddle](#jsfiddle)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo nam commodi eos cumque possimus error cupiditate iste doloribus aut porro, beatae impedit, corporis sapiente laudantium id voluptatem sit distinctio sed sequi accusantium molestias, facilis sunt eum? Voluptates sit numquam, recusandae deleniti illo, nisi maxime sequi eligendi ad veniam quidem molestias aut assumenda doloremque delectus modi animi. Sint asperiores minus ducimus aut aliquid eos pariatur, id doloribus rem natus quam, adipisci reprehenderit?
 
@@ -282,3 +315,37 @@ commit
 commit
 merge newbranch
 {{</mermaid>}}
+
+## Embedding
+
+<br>
+
+### Twitter
+
+Twitter tweet
+
+{{< tweet 666616452582129664 >}}
+
+### YouTube
+
+youtube video
+
+{{< youtube qtIqKaDlqXo >}}
+
+### Vimeo
+
+Vimeo video
+
+{{< vimeo 146022717 >}}
+
+### GitHub Gist
+
+Embeded a gist from GitHub
+
+{{< gist atanasyanew 5e1e5ba1af658aab5cd4f965919559ac  >}}
+
+### JSFiddle
+
+Source code example, JSFiddle
+
+{{< jsfiddle id="3Lkoupeg" rev="0" color="dark" view="result,js,html,css" height="500" >}}

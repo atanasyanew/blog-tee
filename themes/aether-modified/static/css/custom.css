@@ -27,3 +27,14 @@ table {
 td {
     word-break: normal;
 }
+
+li > a {
+    color: #20639b;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.home-card {
+    background-image: none, !important;
+    background-color: #20639b;
+}
