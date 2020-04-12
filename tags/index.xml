@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags - TЕЕ</title>
@@ -6,79 +5,79 @@
     <description>Recent content in Tags on TЕЕ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 20 Feb 2019 10:10:10 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 10:10:10 +0200</lastBuildDate>
     
         <atom:link href="https://atanasyanew.github.io/blog-tee/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>About</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/about/</link>
-      <pubDate>Wed, 20 Feb 2019 10:10:10 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/about/</guid>
-      <description></description>
-    </item><item>
-      <title>Analysis</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/analysis/</link>
-      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/analysis/</guid>
-      <description></description>
-    </item><item>
-      <title>Converter</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/converter/</link>
-      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/converter/</guid>
-      <description></description>
-    </item><item>
-      <title>Education Platform</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/education-platform/</link>
-      <pubDate>Sat, 01 Jun 2019 10:10:10 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/education-platform/</guid>
-      <description></description>
-    </item><item>
-      <title>Electrical Engineering</title>
+      <title>Electrical engineering</title>
       <link>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering/</link>
       <pubDate>Wed, 15 Jan 2020 10:10:10 +0200</pubDate>
       
       <guid>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering/</guid>
       <description></description>
     </item><item>
-      <title>Electrical Engineering Platform</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering-platform/</link>
-      <pubDate>Sat, 01 Jun 2019 10:10:10 +0200</pubDate>
+      <title>modelling</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/modelling/</link>
+      <pubDate>Wed, 15 Jan 2020 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/tags/electrical-engineering-platform/</guid>
+      <guid>https://atanasyanew.github.io/blog-tee/tags/modelling/</guid>
       <description></description>
     </item><item>
-      <title>Electromagnetic Compatibility</title>
+      <title>PhD</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/phd/</link>
+      <pubDate>Wed, 15 Jan 2020 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/phd/</guid>
+      <description></description>
+    </item><item>
+      <title>simulation</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/simulation/</link>
+      <pubDate>Wed, 15 Jan 2020 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/simulation/</guid>
+      <description></description>
+    </item><item>
+      <title>electromagnetic compatibility</title>
       <link>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-compatibility/</link>
       <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
       
       <guid>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-compatibility/</guid>
       <description></description>
     </item><item>
-      <title>Electromagnetic Interference</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-interference/</link>
-      <pubDate>Thu, 13 Sep 2018 10:10:10 +0200</pubDate>
-      
-      <guid>https://atanasyanew.github.io/blog-tee/tags/electromagnetic-interference/</guid>
-      <description></description>
-    </item><item>
-      <title>Harmonic Limits</title>
+      <title>harmonic limits</title>
       <link>https://atanasyanew.github.io/blog-tee/tags/harmonic-limits/</link>
       <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
       
       <guid>https://atanasyanew.github.io/blog-tee/tags/harmonic-limits/</guid>
       <description></description>
     </item><item>
-      <title>Harmonics</title>
-      <link>https://atanasyanew.github.io/blog-tee/tags/harmonics/</link>
-      <pubDate>Fri, 01 Jun 2018 10:10:10 +0200</pubDate>
+      <title>performance</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/performance/</link>
+      <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
       
-      <guid>https://atanasyanew.github.io/blog-tee/tags/harmonics/</guid>
+      <guid>https://atanasyanew.github.io/blog-tee/tags/performance/</guid>
+      <description></description>
+    </item><item>
+      <title>photovoltaic plant</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant/</link>
+      <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/photovoltaic-plant/</guid>
+      <description></description>
+    </item><item>
+      <title>power quality</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/power-quality/</link>
+      <pubDate>Thu, 06 Jun 2019 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/power-quality/</guid>
+      <description></description>
+    </item><item>
+      <title>Education platform</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/education-platform/</link>
+      <pubDate>Sat, 01 Jun 2019 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/education-platform/</guid>
       <description></description>
     </item>
   </channel>

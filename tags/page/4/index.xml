@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags - TЕЕ</title>
+    <link>https://atanasyanew.github.io/blog-tee/tags/</link>
+    <description>Recent content in Tags on TЕЕ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 15 Jan 2020 10:10:10 +0200</lastBuildDate>
+    
+        <atom:link href="https://atanasyanew.github.io/blog-tee/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>three-phase inverter</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/three-phase-inverter/</link>
+      <pubDate>Fri, 02 Jun 2017 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/three-phase-inverter/</guid>
+      <description></description>
+    </item><item>
+      <title>converter</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/converter/</link>
+      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/converter/</guid>
+      <description></description>
+    </item><item>
+      <title>model</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/model/</link>
+      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/model/</guid>
+      <description></description>
+    </item><item>
+      <title>power losses</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/power-losses/</link>
+      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/power-losses/</guid>
+      <description></description>
+    </item><item>
+      <title>SIMULINK</title>
+      <link>https://atanasyanew.github.io/blog-tee/tags/simulink/</link>
+      <pubDate>Thu, 15 Sep 2016 10:10:10 +0200</pubDate>
+      
+      <guid>https://atanasyanew.github.io/blog-tee/tags/simulink/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

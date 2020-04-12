@@ -37,6 +37,7 @@ if (!doNotTrack) {
     </button>
     <ul id="menu" class="hamburger-menu-overlay">
       <li><a href="https://atanasyanew.github.io/blog-tee" class="hamburger-menu-overlay-link">Home</a></li>
+      <li><a href="https://atanasyanew.github.io/blog-tee/standards/" class="hamburger-menu-overlay-link">Standards</a></li>
       <li><a href="https://atanasyanew.github.io/blog-tee/post/2020-01-15-phd-proof-of-work/" class="hamburger-menu-overlay-link">PhD Proof of work</a></li>
       <li><a href="https://atanasyanew.github.io/blog-tee/about/" class="hamburger-menu-overlay-link">About</a></li>
       
@@ -76,79 +77,47 @@ if (!doNotTrack) {
           alt="" >
       </picture>
       
-      
-
-<h2 id="overview">Overview</h2>
-
+      <h2 id="overview">Overview</h2>
 <p>The application is build on top of the <a href="https://gohugo.io/">Hugo</a>. Hugo is one of the most popular open-source static site generators (SSG), with its amazing speed and flexibility.</p>
-
 <p>Improved performance, security and ease of use are just a few of the reasons static site generators are so appealing. The purpose of website generators is to render content into HTML files. Most are “dynamic site generators.”, which means it is possible to review the files locally before copying them to the computer hosting the HTTP server.</p>
-
 <p>A large pool of different open source themes are written for hugo. The application uses a modified version of theme called <a href="https://themes.gohugo.io/aether/">aether</a>.</p>
-
 <p>The content of the topics is written by <code>markdown</code> markup language. There are many third party solutions with user interface for content creating, such as forestry.io, instead of writing <code>markdown</code></p>
-
 <p>The application uses a <a href="https://github.com/">GitHub</a> repository for the source code files and <a href="https://pages.github.com/">GitHub Pages</a> for deployment. A custom shell script is used for deployment, but this process can be optimized further more with continuous integration and continuous delivery (CI CD).</p>
-
 <h2 id="installing-and-running">Installing and running</h2>
-
 <p>Assuming git is already installed.
 Hugo is easy to install, just follow the guide from the <a href="https://gohugo.io/getting-started/installing/">official documentation</a>.</p>
-
 <p>After all of the installation processes finish, the application can be run with the following command, executed inside of the terminal.</p>
-
-<pre><code class="language-sh">hugo serve
-</code></pre>
-
-<p>This command serve the application which is now accessible at <code>localhost:1313</code></p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo serve
+</code></pre></div><p>This command serve the application which is now accessible at <code>localhost:1313</code></p>
 <h2 id="content-creation">Content creation</h2>
-
 <p>Lightweight markup language - markdown is used for the content creation.</p>
-
 <p>Typography examples are shown in the another topic.</p>
-
 <p>A new post can be create by either create new file in the <code>./content/post</code> folder or by terminal.</p>
-
-<pre><code class="language-shell">hugo new post/YYYY-MM-DD-name.md
-</code></pre>
-
-<p>This command will create a new post with the default template.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new post/YYYY-MM-DD-name.md
+</code></pre></div><p>This command will create a new post with the default template.</p>
 <h2 id="deployment">Deployment</h2>
-
 <p>For hosting the entire project is used the free <a href="https://github.com/">GitHub</a> feature <a href="https://pages.github.com/">GitHub Pages</a>. GitHub Pages are hosted directly from your GitHub repository, so it is possible to just edit, push, and changes are live.</p>
-
 <p>In order to deploy a shell scripts is used, basically the script build the application (generates the static content) and then commit and push the changes to the hosted git-pages branch. More information about the deploy script can be found at <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo documentation</a></p>
-
 <p>Deployment with the script can be done with the following command executed inside git bash</p>
-
-<pre><code class="language-sh"> ./deploy.sh
-</code></pre>
-
-<p>Deployment process can be optimized more with the Continuous deployment technique.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"> ./deploy.sh
+</code></pre></div><p>Deployment process can be optimized more with the Continuous deployment technique.</p>
 <p>There are serval Continuous deployment providers that the project can be integrate with, such as AzureDevOps and Forestry.io</p>
-
 <h2 id="typical-use-case">Typical use case</h2>
-
 <p>The following example serves locally the application in order to review our changes, creating a new topic, then commit the changes to the master branch and deploy the newly version of the generated static content.</p>
-
-<pre><code class="language-sh"># Navigate to the source code folder and run the project
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Navigate to the source code folder and run the project</span>
 hugo serve
 
-# Create a new topic
+<span style="color:#75715e"># Create a new topic</span>
 hugo new post/YYYY-MM-DD-name.md
 
-# Save and commit and push the changes
+<span style="color:#75715e"># Save and commit and push the changes</span>
 git add .
-git commit -m &quot;Added topic YYYY-MM-DD-name&quot;
+git commit -m <span style="color:#e6db74">&#34;Added topic YYYY-MM-DD-name&#34;</span>
 git push origin master
 
-# Deploy
+<span style="color:#75715e"># Deploy</span>
 ./deploy.sh
-</code></pre>
-
+</code></pre></div>
     </article>
     
   </main>
@@ -176,8 +145,8 @@ git push origin master
   </article>
 </a>
     
-    <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://atanasyanew.github.io/blog-tee" class="card home-card" style="background-image: url( https://atanasyanew.github.io/blog-tee/img/grey-cloud.jpg )" rel="bookmark" >
+    <a  ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="https://atanasyanew.github.io/blog-tee" class="card home-card" style="background-image: url( https://atanasyanew.github.io/blog-tee )" rel="bookmark" >
   Home
 </a>
   </nav>
@@ -223,10 +192,10 @@ git push origin master
 </script>
 
 
-<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1580637889"
+<link href="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.css?1586696385"
   type="text/css" rel="stylesheet" />
 <script
-  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1580637889"></script>
+  src="https://atanasyanew.github.io/blog-tee/mermaid/mermaid.js?1586696385"></script>
 <script>
   mermaid.initialize({
     startOnLoad: true,
